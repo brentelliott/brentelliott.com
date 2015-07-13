@@ -1,0 +1,232 @@
+/*
+6a8616
+282828
+FFFFFF
+*/
+
+html, body, div, iframe, h1, h2, h3, h4, h5, h6, p, a, img, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+}
+
+iframe {
+  margin-top: -5px;
+  margin-bottom: -5px;
+
+}
+
+#header {
+  width: 540px;
+  height: 61px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgheader {
+  width: 540px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#logo {
+
+}
+
+.hoverific {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  background:
+    url('../images/bg_grad.png') no-repeat center top,
+    url('../images/bg_noise.png') repeat;
+}
+
+ul {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+#outer-container {
+  width = 100%;
+  text-align: center;
+  border: 4px solid #CC2200;
+}
+
+#site-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+h1 {
+  font-family: "chaparral-pro-1","chaparral-pro-2";
+  font-size: 50;
+  color: #6a8616;
+  line-height: 40px;
+  border: 4px;
+  border-color: #ffffff;
+}
+
+.full-justify {
+  text-align: justify;
+}
+
+.full-justify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+#breakdown-container {
+  width: 540px;
+  height: 140px;
+  overflow: hidden;
+  background-color: #111111;
+  display: none;
+}
+
+.breakdown-block {
+  position: relative;
+  float: left;
+  width: 540px;
+  height: 140px;
+  overflow: hidden;
+  background-color: #282828;
+}
+
+.breakdown-block h2 {
+  font-family: "proxima-nova-1","proxima-nova-2";
+  font-size: 24px;
+  font-weight: 700;
+  color: #6a8616;
+  text-shadow: 1px 1px 0px #000000;
+  padding: 10px 10px 10px 10px;
+}
+
+.breakdown-block p {
+  font-family: "proxima-nova-1","proxima-nova-2";
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px #000000;
+  padding: 10px 10px 10px 50px;
+}
+
+#breakdown-scroller {
+  position: relative;
+  width: 15000px;
+}
+
+.video-each {
+  position: relative;
+  float: left;
+  margin 0;
+  width: 390px;
+  height: 220px;
+}
+
+#contact {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-container {
+  margin-top: 25px;
+}
+
+
+#contact-container li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 195px;
+  float: left;
+}
+
+#contact-container p {
+  font-family: "proxima-nova-1","proxima-nova-2";
+  font-size: 12px;
+  font-weight: 300;
+  color: #607a31;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: auto;
+  float: left;
+}
+
+#contact-container img {
+  float: left;
+  margin-left: 20px;
+}
+
+#resume-block {
+  width: 150px;
+  height: 80px;
+  background: rgba(0,0,0,0.5);
+  float: left;
+}
+
+#resume-block img {
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+
+#resume-block p {
+  font-family: "proxima-nova-1","proxima-nova-2";
+  font-size: 12px;
+  color: #EEE;
+  padding: 15px;
+}
+
+
+#resume-page {
+  font-family: "proxima-nova-1","proxima-nova-2";
+  background-color: #444;
+  padding: 15px;
+}
+
+#resume-page h2 {
+  color: #6a8616;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#resume-page h3 {
+  color: #FFF;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#resume-page p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#footer {
+  height: 120px;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
